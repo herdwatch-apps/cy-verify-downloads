@@ -9,6 +9,9 @@ module.exports = (on, config) => {
     },
     removeDownloads: () => {
       try {
+        if(!existsSync(config.downloadsFolder)){
+          return 0;
+        }
         readdirSync(config.downloadsFolder).forEach(file => rmSync(`${config.downloadsFolder}/${file}`));
         const filenames = readdirSync(config.downloadsFolder, { withFileTypes: true });
         console.log(filenames);
