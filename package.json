@@ -1,5 +1,5 @@
 {
-  "name": "cy-verify-downloads",
+  "name": "@herdwatch/cy-verify-downloads",
   "version": "0.0.6",
   "description": "Cypress custom command to wait and verify that file has been downloaded",
   "files": [
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elaichenkov/cy-verify-downloads.git"
+    "url": "git+https://github.com/herdwatch-apps/cy-verify-downloads.git"
   },
   "keywords": [
     "cypress",
@@ -34,9 +34,9 @@
   "author": "Yevhen Laichenkov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elaichenkov/cy-verify-downloads/issues"
+    "url": "https://github.com/herdwatch-apps/cy-verify-downloads/issues"
   },
-  "homepage": "https://github.com/elaichenkov/cy-verify-downloads#readme",
+  "homepage": "https://github.com/herdwatch-apps/cy-verify-downloads#readme",
   "devDependencies": {
     "cypress": "13.15.1",
     "serve": "14.2.4"

@@ -5,7 +5,7 @@ This is a Cypress custom command to wait and to verify that a file has been succ
 ## Installation
 
 ```shell
-npm i -D cy-verify-downloads
+npm i -D @herdwatch/cy-verify-downloads
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ cy-verify-downloads extends Cypress' cy command.
 So, you need to add this line to your project's `cypress/support/commands.js`:
 
 ```javascript
-require('cy-verify-downloads');
+require('@herdwatch/cy-verify-downloads');
 ```
 
 OR
@@ -23,7 +23,7 @@ OR
 `cypress/support/commands.ts`:
 
 ```typescript
-import 'cy-verify-downloads';
+import '@herdwatch/cy-verify-downloads';
 ```
 
 
@@ -32,7 +32,7 @@ And [extend module.exports](https://github.com/cypress-io/cypress/issues/6492#is
 
 ```javascript
 module.exports = (on, config) => {
-    require('cy-verify-downloads/plugin')(on, config);
+    require('@herdwatch/cy-verify-downloads/plugin')(on, config);
 }
 ```
 Then, in your test, you can use it like this:
@@ -68,7 +68,7 @@ To enable IntelliSense information and autocomplete you have to include types in
 ```json
 {
   "compilerOptions": {
-    "types": ["cypress", "cy-verify-downloads"]
+    "types": ["cypress", "@herdwatch/cy-verify-downloads"]
   }
 }
 ```
