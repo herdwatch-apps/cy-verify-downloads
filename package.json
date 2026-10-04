@@ -39,6 +39,6 @@
   "homepage": "https://github.com/herdwatch-apps/cy-verify-downloads#readme",
   "devDependencies": {
     "cypress": "13.15.1",
-    "serve": "14.2.4"
+    "serve": "14.2.6"
   }
 }
